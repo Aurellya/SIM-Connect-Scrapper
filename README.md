@@ -21,7 +21,7 @@ Libraries:
 
 ## How to install Chromedriver
 On macOS - install it using cask
->> brew cask install chromedriver
+> brew cask install chromedriver
 
 ## Demos
 Videos - Soon
