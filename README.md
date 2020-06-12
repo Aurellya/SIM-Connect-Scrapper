@@ -5,6 +5,8 @@ SIM Connect is the platform under ©Copyright 2020 SIM Global Education for SIM 
 To run this script, you need to have username and password to login.
 
 ## Requirements:
+* Become SIM Student :) [to be able to have username and password]
+
 * Python 3.X
 * ChromeDriver
 
@@ -12,8 +14,6 @@ Libraries:
 * Beautiful Soup
 * Selenium
 * Pandas
-
-* Become SIM Student :) [to be able to have username and password]
 
 ## Purpose
 The purpose of this script is to help SIM Student to view their schedule easier. 
