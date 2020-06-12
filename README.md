@@ -1,13 +1,4 @@
-# SIM CONNECT SCHEDULE SCRAPPER
-###############################################################
-   ____  __  _  _     ___  __   __ _  __ _  ____  ___  ____ 
-  / ___)(  )( \/ )   / __)/  \ (  ( \(  ( \(  __)/ __)(_  _)
-  \___ \ )( / \/ \  ( (__(  O )/    //    / ) _)( (__   )(  
-  (____/(__)\_)(_/   \___)\__/ \_)__)\_)__)(____)\___) (__) 
-      WELCOME TO SIM CONNECT TIMETABLE SCRAPPER PROGRAM
-	               created by: Aurellya
-###############################################################
-
+# SIM CONNECT Schedule Scrapper
 Hello there!
 This Python script is meant to find schedule in SIM Connect website for the certain number of weeks entered by user and export it as .xlsx file.
 SIM Connect is the platform under ©Copyright 2020 SIM Global Education for SIM (Singapore Institute of Management) students to access important information about their details and studies.
