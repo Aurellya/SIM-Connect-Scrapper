@@ -4,6 +4,10 @@ This Python script is meant to find schedule in SIM Connect website for the cert
 SIM Connect is the platform under ©Copyright 2020 SIM Global Education for SIM (Singapore Institute of Management) students to access important information about their details and studies.
 To run this script, you need to have username and password to login.
 
+## Purpose
+The purpose of this script is to help SIM Student to view their schedule easier. 
+By running the script once, students have all their schedule in a file with simpler format (.xlsx file).
+
 ## Requirements:
 * Become SIM Student :) [to be able to have username and password]
 
@@ -15,9 +19,9 @@ Libraries:
 * Selenium
 * Pandas
 
-## Purpose
-The purpose of this script is to help SIM Student to view their schedule easier. 
-By running the script once, students have all their schedule in a file with simpler format (.xlsx file).
+## How to install Chromedriver
+On macOS - install it using cask
+>> brew cask install chromedriver
 
 ## Demos
 Videos - Soon
