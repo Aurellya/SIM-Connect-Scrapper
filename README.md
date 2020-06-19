@@ -20,8 +20,8 @@ Libraries:
 * Pandas
 
 ## How to install Chromedriver
-On macOS - install it using cask
-> brew cask install chromedriver
+<p>On macOS - install it using cask<br/>
+>> brew cask install chromedriver</p>
 
-## Demos
+## Demo
 Videos - Soon
