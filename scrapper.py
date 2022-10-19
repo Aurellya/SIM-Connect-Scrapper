@@ -45,7 +45,7 @@ def loginAs():
 		input1 = input("\n>> ")
 
 		if input1 == "1" or input1 == "2" or input1 == "3" or input1 == "4" or input1 == "5":
-			condition = False;
+			condition = False
 
 	if input1 == 1:
 		return "Applicant" 
