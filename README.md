@@ -18,6 +18,7 @@ Libraries:
 * Beautiful Soup
 * Selenium
 * Pandas
+* xlsxwriter
 
 ## How to install Chromedriver
 <p>On macOS - install it using cask<br/>
