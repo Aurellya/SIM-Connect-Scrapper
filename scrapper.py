@@ -306,7 +306,7 @@ driver.close()
 ###############################################################################################################################
 
 #  export data to excel file (.xlsx) using pandas library
-xlsx_writer(final_schedule, date, month_int, subject, tutorialOrLectureGroup, subjects, typeOfClass, timeSpan, location, instructors)
+xlsx_writer(final_schedule, date, month_int, subjects, tutorialOrLectureGroup, subjects, typeOfClass, timeSpan, location, instructors)
 
 ###############################################################################################################################
 
