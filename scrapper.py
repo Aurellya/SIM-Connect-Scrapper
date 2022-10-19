@@ -134,10 +134,10 @@ driver = webdriver.Chrome()
 open_Web()							
 
 # finds the username and password forms
-user_type = driver.find_element_by_id("User_Type")
-username = driver.find_element_by_id("userid")
-password = driver.find_element_by_id("pwd")
-login_button = driver.find_element_by_id("loginbutton")
+user_type = driver.find_element("id", "User_Type")
+username = driver.find_element("id", "userid")
+password = driver.find_element("id", "pwd")
+login_button = driver.find_element("id", "loginbutton")
 
 # fills in the login form and submits
 print("[SIM Connect] Entering credentials...")
@@ -150,22 +150,22 @@ print("[SIM Connect] Logged in successfully!")
 
 # steps to get to the weekly schedule page which contains the schedule
 print("[SIM Connect] Moving to My Apps Page ...")
-driver.find_element_by_link_text('My Apps').click()
+driver.find_element("link text", 'My Apps').click()
 
 WebDriverWait(driver, 10).until(EC.element_to_be_clickable((By.ID, 'fldra_CO_EMPLOYEE_SELF_SERVICE')))
 
 print("[SIM Connect] Moving to Self-Service Page ...")
-driver.find_element_by_id('fldra_CO_EMPLOYEE_SELF_SERVICE').click()
+driver.find_element("id", 'fldra_CO_EMPLOYEE_SELF_SERVICE').click()
 
 WebDriverWait(driver, 10).until(EC.element_to_be_clickable((By.ID, 'fldra_HCCC_ENROLLMENT')))
 
 print("[SIM Connect] Moving to Enrollment Page ...")
-driver.find_element_by_id('fldra_HCCC_ENROLLMENT').click()
+driver.find_element("id", 'fldra_HCCC_ENROLLMENT').click()
 
 WebDriverWait(driver, 10).until(EC.element_to_be_clickable((By.ID, 'ptifrmtemplate')))
 
 print("[SIM Connect] Moving to Weekly Timetable Page ...")
-driver.find_element_by_link_text('My Timetable (Weekly View)').click()
+driver.find_element("link text",'My Timetable (Weekly View)').click()
 
 ###############################################################################################################################
 
@@ -287,7 +287,7 @@ while index < weeks:
 		instructors.append(entry5)
 
 	# going to the next page which has the timetable for the following week
-	next = driver.find_element_by_id("DERIVED_CLASS_S_SSR_NEXT_WEEK")
+	next = driver.find_element("id", "DERIVED_CLASS_S_SSR_NEXT_WEEK")
 	next.click()
 	time.sleep(3)
 	index = index + 1
