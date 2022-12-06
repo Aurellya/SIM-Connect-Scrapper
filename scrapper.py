@@ -9,6 +9,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 import time
 import pandas as pd
+from webdriver_manager.chrome import ChromeDriverManager
 
 # functions
 def welcome_message():
@@ -126,7 +127,7 @@ weeks = int(input(">> "))
 
 # accesses chromedriver
 print("\n[SIM Connect] Opening Chrome web browser...")
-driver = webdriver.Chrome()			
+driver = webdriver.Chrome(ChromeDriverManager().install())			
 
 # to update chromedriver = 'brew cask upgrade chromedriver'
 
